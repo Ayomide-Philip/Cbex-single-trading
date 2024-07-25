@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cbex Single User Calculator</title>
+    <link rel="shortcut icon" href="./WhatsApp Image 2024-06-19 at 08.39.01_5f002370.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="title" content="Cbex Single User Calculator">
+  <meta name="description"
+    content="The Cbex Calculator is an excellent tool for traders, enabling them to accurately estimate the amount of funds they will have at the end of their chosen timeframe, for User trading once a day.">
+  <meta property="og:title" content="Cbex Single User Calculator">
+  <meta property="og:description"
+    content="The Cbex Calculator is an excellent tool for traders, enabling them to accurately estimate the amount of funds they will have at the end of their chosen timeframe, for User trading once a day.">
+  <meta property="og:image" content="./WhatsApp Image 2024-06-19 at 08.39.01_5f002370.jpg">
+  <meta name="author" content="Areo Ayomide Philip">
+</head>
+<body>
+    <div class="navbar">
+        <img src="./H6CipnofkZQlAzXt.png" class="cbex-logo" alt="Cbex logo">
+    </div>
+    <div class="main-container">
+        <h1>Cbex Single User Calculator</h1>
+        <p class="lead">The Cbex Calculator is an excellent tool for traders, enabling them to accurately estimate the amount of funds they will have at the end of their chosen timeframe, for User trading once a day. This calculator is an invaluable asset for anyone who wishes to engage in efficient and effective trading strategies.</p>
+        <div class="display-input">
+            <textarea name="" id="display-input" class="" readonly></textarea>
+        </div>
+
+        <div class="float-input">
+            <span>123</span>
+            <input type="number"  name="" id="numberOfTime"  placeholder="Input the number of days">
+        </div>
+        <p class="error" id="error2">Please input a trading capital</p>
+        <div class="float-input">
+            <span>123</span>
+            <input type="number"  name="" id="tradingAmount" placeholder="Input your trading capital">
+        </div>
+        <p class="error" id="error">Please input a trading capital</p>
+        
+        <div class="button-flex"> 
+            <button onclick="NewCapital()">Calculate Profit</button>
+        </div>
+    </div>
+    <div class="warning" id="warning">
+        <div class="warning-banner">
+            <h1>Warning</h1>
+            <hr>
+            <h1>This Website Is in no way affilate with the normal Cbex trading platform </h1>
+            <div class="button-flex">
+                <button onclick="dismiss()">Acknowledge</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div  id="footer">
+            <p> &copy;  Areo Ayomide Philip</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
